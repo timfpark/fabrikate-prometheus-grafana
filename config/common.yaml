@@ -10,6 +10,11 @@ subcomponents:
       server:
         persistentVolume:
           storageClass": "default"
+  prometheus-adapter:
+    config:
+      namespace: "prometheus"
+      prometheus:
+        url: http://prometheus-server.prometheus.svc.cluster.local
   grafana: 
     config: 
       namespace: "grafana"
