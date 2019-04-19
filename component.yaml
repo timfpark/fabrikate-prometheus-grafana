@@ -12,7 +12,3 @@ subcomponents:
   source: "https://github.com/helm/charts"
   method: "git"
   path: "stable/prometheus"
-#- name: "prometheus-adapter"
-#  generator: "helm"
-#  repo: "https://github.com/helm/charts"
-#  path: "stable/prometheus-adapter"
